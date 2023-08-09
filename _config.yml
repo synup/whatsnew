@@ -1,5 +1,5 @@
-title: Leap Day theme
-description: Leap Day is a theme for GitHub Pages.
-show_downloads: true
+title: Changelog
+description: This page is directed towards documenting all changes we make in Synup over time. Every new change that we make in Synup, that impacts the customer will be documented over here. Bug fixes will not be included.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-leap-day
