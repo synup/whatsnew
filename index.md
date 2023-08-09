@@ -3,6 +3,8 @@ layout: default
 title: Changelog
 ---
 
+Text 1
+
 {% assign changelog_files = site.static_files | where: "path", "_changelogs" %}
 {% assign sorted_changelogs = changelog_files | sort: "name" %}
 
