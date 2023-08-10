@@ -5,6 +5,12 @@ title: Changelog
 
 Text 1
 
+{{ site.static_files | where: "path", "_changelogs" }}
+
+{% for file in site.static_files %}
+    {{ file.path }}
+{% endfor %}
+
 {% assign changelog_files = site.static_files | where: "path", "_changelogs" %}
 {% assign sorted_changelogs = changelog_files | sort: "name" %}
 

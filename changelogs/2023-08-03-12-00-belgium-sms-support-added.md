@@ -1,9 +1,4 @@
 ---
-title: 
-description:  
----
-
----
 layout: default
 title: Changelog
 ---
