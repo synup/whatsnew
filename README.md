@@ -1,3 +1,14 @@
+# Notes by Synup Developer
+
+To test on local
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
+Go to http://127.0.0.1:4000
+
+
 # The Leap day theme
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/leap-day/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/leap-day/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-leap-day.svg)](https://badge.fury.io/rb/jekyll-theme-leap-day)
