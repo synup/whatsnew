@@ -3,8 +3,11 @@ layout: default
 title: Changelog
 ---
 
-
-## We added support for sending Review Acquisition SMS campaigns to Belgium phone numbers
+<br/>
+<div style="width: 100%;">
+    <h3 style="display: inline-block;">Impacted Product: Review Acquisitions</h3>
+    <span style="float: right">3rd Aug, 2023</span>
+</div>
 
 *   With this build, we will now be able to send SMSes to Belgium phone numbers that belong to Belgium locations in Synup. 
 *   We use Twilio to send the SMS. 

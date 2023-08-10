@@ -3,23 +3,15 @@ layout: default
 title: Changelog
 ---
 
-Text 1
-
-{{ site.static_files | where: "path", "_changelogs" }}
-
-{% for file in site.static_files %}
-    {{ file.path }}
-{% endfor %}
-
-{% assign changelog_files = site.static_files | where: "path", "_changelogs" %}
-{% assign sorted_changelogs = changelog_files | sort: "name" %}
-
-{% for file in sorted_changelogs %}
-  {% assign changelog_date = file.name | slice: 0, 16 %}
-  {% assign changelog_content = file.contents | markdownify %}
-
+{% for changelog in site.data.changelogs %}
+  {% assign changelog_content = site.pages | where: "path", changelog.path | first %}
+  {% if changelog.show_month %}
+# {{ changelog.month }}
+  <br/>
+  {% endif %}
   <details>
-    <summary>{{ changelog_date }}</summary>
-    {{ changelog_content }}
+    <summary>{{ changelog.summary }}</summary>
+    {{ changelog_content.content | markdownify }}
   </details>
+  <br/>
 {% endfor %}

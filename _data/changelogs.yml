@@ -1,0 +1,54 @@
+- month: Aug 2023
+  show_month: true
+  summary: Joomlocal copy sites arrivebusiness.com and cityoptimum.com added to our publisher list.
+  path: changelogs/2023-08-08-joomlocal-sites-added.md
+
+- month: Aug 2023
+  show_month: false
+  summary: Number of keywords submitted to Georanker per hour reduced.
+  path: changelogs/2023-08-08-hourly-georanker-keywords-changed.md
+
+- month: Aug 2023
+  show_month: false
+  summary: We will generate the live links for Dwarika sites on Synup side itself every 6 hours.
+  path: changelogs/2023-08-07-dwarika-live-links-generate.md
+
+- month: Aug 2023
+  show_month: false
+  summary: Iglobal submissions will now go through after new API key was updated.
+  path: changelogs/2023-08-04-iglobal-api-key-updated.md
+
+- month: Aug 2023
+  show_month: false
+  summary: Added a button to allow users to review Synup on G2 about their experience.
+  path: changelogs/2023-08-03-G2-reviews-support.md
+
+- month: Aug 2023
+  show_month: false
+  summary: We added support for sending Review Acquisition SMS campaigns to Belgium phone numbers.
+  path: changelogs/2023-08-03-belgium-sms-support-added.md
+
+- month: Aug 2023
+  show_month: false
+  summary: Added scripts in v2app sign up flow for tracking Quora and Reddit leads.
+  path: changelogs/2023-08-02-quora-reddit-tracking.md
+
+- month: Aug 2023
+  show_month: false
+  summary: Support for creating locations of Belgium Country added.
+  path: changelogs/2023-08-02-belgium-location-creation-support.md
+
+- month: Aug 2023
+  show_month: false
+  summary: We can fetch more details for the All Actions graph.
+  path: changelogs/2023-08-01-all-actions-more-details.md
+
+- month: Jul 2023
+  show_month: true
+  summary: We will now show the business logo and name in the header for static campaigns when top rating is selected.
+  path: changelogs/2023-07-28-static-campaign-business-logo-name-support.md
+
+- month: Jul 2023
+  show_month: false
+  summary: Along with Twitter Direct integration, we now have support for Twitter threads for longer tweets.
+  path: changelogs/2023-07-26-twitter-threads-support.md

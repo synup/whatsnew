@@ -2,3 +2,29 @@
 ---
 
 @import 'jekyll-theme-leap-day';
+
+#banner {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+nav {
+    width: 20%;
+    top: 220px;
+    left: 0px;
+    margin-left: 0px;
+    position: fixed;
+}
+
+section {
+    width: 70%;
+    left: 22%;
+}
+
+summary {
+    font-size: 20px;
+    font-weight: bold;
+}
